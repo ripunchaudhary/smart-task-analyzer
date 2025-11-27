@@ -1,7 +1,7 @@
 # 🧠 SMART TASK ANALYZER  
 A Django REST + JavaScript based system that analyzes tasks, calculates priority scores, and recommends the top 3 tasks to focus on using predefined productivity strategies.
 
-This project is submitted as part of the **Internshive Internship Assignment 2025**.
+This project is submitted as part of the Internshive Internship Assignment 2025.
 
 ---
 
@@ -18,7 +18,7 @@ The goal of this assignment is to build a system that can:
 
 ---
 
-# 📌 2. FEATURES (As required in PDF)
+# 📌 2. FEATURES 
 
 ✔ Analyze API – Returns full priority ranking  
 ✔ Suggest API – Returns top 3 tasks with reasons  
@@ -313,7 +313,16 @@ This project successfully implements:
 ✔ Proper backend structure  
 ✔ Full documentation  
 ✔ All assignment requirements  
+---
+
+Run the Backend
+cd backend
+venv\Scripts\activate
+python manage.py runserver
 
 ---
+<img width="1188" height="698" alt="Img1" src="https://github.com/user-attachments/assets/8ae494cc-7b13-4a65-b6d8-03b4dbbf5a26" />
+<img width="1256" height="688" alt="Img2" src="https://github.com/user-attachments/assets/24b6eaad-2abb-4b1c-90ae-b0626137b07b" />
+
 
 
