@@ -1,0 +1,134 @@
+/* Global reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    background: #f5f7fb;
+}
+
+/* Main container */
+.container {
+    max-width: 850px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.sub {
+    text-align: center;
+    font-size: 14px;
+    color: #656565;
+    margin-bottom: 20px;
+}
+
+/* Label */
+.label {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+}
+
+/* Select box */
+.select-box {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid #dde1eb;
+    font-size: 14px;
+    outline: none;
+    transition: 0.25s;
+}
+
+.select-box:focus {
+    border-color: #4a73ff;
+    box-shadow: 0 0 7px rgba(74,115,255,0.25);
+}
+
+/* JSON textarea */
+textarea {
+    width: 100%;
+    height: 180px;
+    padding: 14px;
+    border-radius: 12px;
+    border: 2px solid #dde1eb;
+    resize: vertical;
+    outline: none;
+    font-size: 14px;
+    margin-top: 8px;
+    transition: 0.25s;
+}
+
+textarea:focus {
+    border-color: #4a73ff;
+    box-shadow: 0 0 8px rgba(74,115,255,0.26);
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    background: #4a73ff;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.btn:hover {
+    background: #3459f0;
+    transform: translateY(-2px);
+}
+
+/* Result box */
+.results {
+    margin-top: 25px;
+}
+
+/* Task cards */
+.card {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.07);
+    margin-bottom: 18px;
+    animation: fadeUp 0.4s ease;
+}
+
+/* Priority color left strip */
+.card.high {
+    border-left: 6px solid #ff5252;
+}
+
+.card.medium {
+    border-left: 6px solid #ffb400;
+}
+
+.card.low {
+    border-left: 6px solid #4caf50;
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+/* Animation */
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+}
