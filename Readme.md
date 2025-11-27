@@ -321,8 +321,10 @@ venv\Scripts\activate
 python manage.py runserver
 
 ---
-<img width="1188" height="698" alt="Img1" src="https://github.com/user-attachments/assets/8ae494cc-7b13-4a65-b6d8-03b4dbbf5a26" />
-<img width="1256" height="688" alt="Img2" src="https://github.com/user-attachments/assets/24b6eaad-2abb-4b1c-90ae-b0626137b07b" />
+![Screenshot](assest/Img1.png)
+![Screenshot](assest/Img2.png)
+
+
 
 
 
