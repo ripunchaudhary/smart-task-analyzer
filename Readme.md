@@ -321,10 +321,8 @@ venv\Scripts\activate
 python manage.py runserver
 
 ---
-![Screenshot](assest/Img1.png)
-![Screenshot](assest/Img2.png)
-
-
+![Screenshot 1](assets/Img1.png)
+![Screenshot 2](assets/Img2.png)
 
 
 
